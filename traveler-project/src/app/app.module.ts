@@ -11,12 +11,14 @@ import { MatButtonModule} from '@angular/material/button';
 import { AppComponent } from './app.component';
 import { MapComponent } from './map/map.component';
 import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MapComponent,
-    LoginComponent
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
