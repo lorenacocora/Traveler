@@ -20,10 +20,6 @@ export class LoginComponent implements OnInit {
     console.log(user);
   }
 
-  onClickSignUp(){
-    console.log("To sign up");
-  }
-
   ngOnInit(): void {}
   
 
