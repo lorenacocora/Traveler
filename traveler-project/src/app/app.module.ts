@@ -6,12 +6,13 @@ import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule} from '@angular/material/button';
+import { MatIcon, MatIconModule} from '@angular/material/icon'
 
 
 import { AppComponent } from './app.component';
-import { MapComponent } from './map/map.component';
-import { LoginComponent } from './login/login.component';
-import { SignupComponent } from './signup/signup.component';
+import { MapComponent } from './view/map/map.component';
+import { LoginComponent } from './view/login/login.component';
+import { SignupComponent } from './view/signup/signup.component';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -29,6 +30,7 @@ import { AppRoutingModule } from './app-routing.module';
     MatFormFieldModule,
     MatInputModule,
     MatButtonModule,
+    MatIconModule,
     AppRoutingModule,
   ],
   providers: [],

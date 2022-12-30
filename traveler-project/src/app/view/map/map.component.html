@@ -1,0 +1,14 @@
+<div id="map">
+    
+</div>
+
+<div id="fab-container">
+    <button mat-fab  (click)="onToggleFab()" color="secondary">
+        <mat-icon>more_vert</mat-icon>
+    </button>
+    <div>
+        <button *ngFor="let btn of buttons" mat-mini-fab color="secondary">
+          <mat-icon>{{btn}}</mat-icon>
+        </button>
+      </div>
+</div> 

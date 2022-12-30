@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { LoginComponent } from './login/login.component';
-import { SignupComponent } from './signup/signup.component';
-import { MapComponent } from './map/map.component';
+import { LoginComponent } from './view/login/login.component';
+import { SignupComponent } from './view/signup/signup.component';
+import { MapComponent } from './view/map/map.component';
 
 const routes : Routes = [
   {path: "login", component: LoginComponent},

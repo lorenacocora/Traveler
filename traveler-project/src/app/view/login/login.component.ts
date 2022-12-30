@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators} from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -16,8 +17,11 @@ export class LoginComponent implements OnInit {
     password: this.password
   });
 
+  constructor(private router:Router){}
+
   onSubmit(user: any){
     console.log(user);
+    this.router.navigateByUrl("/map");
   }
 
   ngOnInit(): void {}
